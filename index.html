@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="no-js" lang="eng">
+  <head>
+    <meta charset="utf-8" />
+    <title>Is The Weather Nice?</title>
+    <meta name="description" content="Fact or Fiction" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/correct.png" sizes="16x16" type="image/png" />
+    <link rel="stylesheet" href="src/assets/css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="top-bar">
+      <h1>Is the Weather Nice?</h1>
+      <h3>
+        Needing to know if you should open the window? Or weather or not to wear
+        shorts or jeans? You have come to the right place.
+      </h3>
+    </header>
+    <!-- <img id="conditionImg" src="i/conditions/sunny.jpg" width="250px" height: -->
+
+    <form>
+      <label for="zip"> Enter Postal Code:</label><br />
+      <input type="number" id="zip" name="zip" /><br />
+    </form>
+    <input type="submit" onclick="showInput();" />
+
+    <p id="display" style="color: white"></p>
+
+    <h2 id="location"></h2>
+    <h2 id="temp"></h2>
+    <!-- <h1 id="temp-exerpt"></h1> -->
+    <h2 id="feelsLike"></h2>
+    <h2 id="minTemp"></h2>
+    <h2 id="maxTemp"></h2>
+    <h2 id="condition"></h2>
+
+    <h2 id="pressure"></h2>
+    <h2 id="humidity"></h2>
+    <h2 id="windspeed"></h2>
+    <h2 id="windgust"></h2>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

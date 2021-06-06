@@ -1,0 +1,18 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-bar {
+  background-color: rgb(0, 217, 255);
+  margin: 0;
+  border: none;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+form {
+  align-items: center;
+}
